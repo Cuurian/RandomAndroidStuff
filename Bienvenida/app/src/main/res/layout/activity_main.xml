@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.holamundo.cordova.andres.bienvenida.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/myLinearLayout"
+        android:layout_width="374dp"
+        android:layout_height="449dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="5dp">
+
+        <TextView
+            android:id="@+id/myTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenidos"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/myTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alumnos de Universidad Estatal de Sonora"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <TextView
+            android:id="@+id/myTextView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingenieria en Software"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="105dp" />
+
+        <TextView
+            android:id="@+id/myTextView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="xd"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="105dp" />
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/xd"
+        android:layout_width="262dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Switch"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+</android.support.constraint.ConstraintLayout>
